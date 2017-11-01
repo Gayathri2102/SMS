@@ -16,6 +16,9 @@ public class MainActivity extends AppCompatActivity {
         Button btnSendSMS = (Button) findViewById(R.id.button_sms);
         btnSendSMS.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                            }
+                sendSMS("9029894202", "Guess what !! I am Safe!");
+           /*here i can send message to emulator 5556. In Real device
+            *you can change number*/
+            }
         });}
 
