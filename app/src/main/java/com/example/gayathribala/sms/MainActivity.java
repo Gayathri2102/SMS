@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             *you can change number*/
 
                 Intent callIntent = new Intent(Intent.ACTION_CALL);
-                callIntent.setData(Uri.parse("tel:0377778888"));
+                callIntent.setData(Uri.parse("tel:9029894202"));
                 startActivity(callIntent);
 
             }
